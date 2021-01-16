@@ -67,9 +67,21 @@
   cursor: pointer;
 }
 
+.newButton.highlight {
+  border: 2px solid rgb(67, 218, 67);
+}
+
 .newButton:hover {
   color: #282c34;
   background: white;
+}
+
+.newButton.highlight:hover {
+  border: 2px solid white;
+}
+
+.newButton:hover:focus {
+  color: darkgreen;
 }
 
 .correct {
@@ -96,6 +108,11 @@
   margin: 5px;
   font-weight: bold;
   display: inline-block;
+}
+
+.wins.zero {
+  background-color: rgb(94, 94, 94);
+  border: 2px solid darkgrey;
 }
 
 .winMessage {
