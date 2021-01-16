@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+
+.check {
+  margin: 15px 5px;
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background: gold;
+  color: #282c34;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.answer {
+  padding: 5px;
+  margin: 5px;
+  font-size: 1.2rem;
+}
+
+.newButton {
+  padding: 10px;
+  font-size: 1.2rem;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.newButton:hover {
+  color: #282c34;
+  background: white;
+}
+
+.correct {
+  color: rgb(67, 218, 67);
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 3px;
+}
+
+.wrong {
+  color: rgb(199, 92, 92);
+  font-weight: bold;
+}
+
+.winBlock {
+  margin-top: 10px;
+}
+
+.wins {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: darkgreen;
+  border: 3px solid gold;
+  margin: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.winMessage {
+  font-weight: bold;
+  color: gold;
+  padding: 2px 20px;
+  border-bottom: 1px solid gold;
+}
