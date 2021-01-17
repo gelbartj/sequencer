@@ -95,9 +95,6 @@ interface Sequence {
     // formulaAns is of form a0 + d(n-1), so can't remove parentheses
     formulaAns = formulaAns.replace(/^0\+/g, "")
     const corrects = getCorrectAnswers();
-    console.log("strippedAns: ", strippedAns);
-    console.log("formulaAns: ", formulaAns);
-    console.log("corrects: ", corrects);
     const isCorrect = [corrects[0], corrects[1]].includes(strippedAns) || 
       [corrects[2], corrects[3]].includes(formulaAns);
     if (isCorrect) {
